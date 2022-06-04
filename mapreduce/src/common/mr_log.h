@@ -160,12 +160,6 @@ Logger<T>& endl(Logger<T> &logger) {
   return logger;
 }
 
-class LogError;
-class LogWarn;
-class LogInfo;
-class LogDebug;
-class LogTrace;
-
 //
 
 inline std::ostringstream& operator<<(std::ostringstream &os,
